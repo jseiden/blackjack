@@ -30,7 +30,3 @@ class window.Hand extends Backbone.Collection
 
     $('div').empty()
     new AppView(model: new App()).$el.appendTo 'body'
-
-  # printWinner: ->
-  #   alert('Dealer wins!') if @Dealer is true and
-  #     minScore
